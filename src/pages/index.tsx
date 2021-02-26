@@ -38,7 +38,7 @@ export default function Home() {
         <div className={styles.footer}>
           <p>Projeto MoveIt desenvolvido no NLW4 da Rocketseat - Fev/2021</p>
           <p>available @ {"  "}
-            <a href="https://github.com/andresouza7/" target="blank">github/andresouza7</a>
+            <a href="https://github.com/andresouza7/moveit" target="blank">github/andresouza7/moveit</a>
           </p>
       </div>
       </div>
