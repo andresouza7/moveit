@@ -1,0 +1,45 @@
+.rankingContainer {
+  display: flex;
+  flex-direction: column;
+  height: 490px;
+  overflow: scroll;
+
+  background: var(--white);
+  color: var(--text);
+
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+
+.rankingContainer h4 {
+  margin-bottom: 1rem;
+}
+
+.rankingItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.rankingItem img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.rankingItem div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.rankingItem div p {
+  font-size: 10pt;
+  font-weight: 500;
+}
+
+.rankingItem div span {
+  font-size: 8pt;
+}
